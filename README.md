@@ -1,1 +1,3 @@
-# misc
+# Misc
+
+Miscellaneous projects and utilities.
