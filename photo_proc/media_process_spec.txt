@@ -1,0 +1,20 @@
+Photo:
+Nikon D90:  (raw 4288,2848) -> (1446, 960) 3:2
+iPhone4:    (2592,1936) -> (1280, 960)  4:3
+
+1. Try upload with Imagevue auto resize to 1280px bounding box. It should work after increasing MAMP Pro PHP cache size.
+2. If not working, then use Photoshop image fit function to scale image’s longside to 1280 pixels. 
+
+Note: Use sRGB color profile (Nikon default), so it will look good on the web.
+
+
+
+Video:
+
+SonyCam: 
+H.264, Preset: Apple TV, iPAD, iPhone4 and newer - 480p 25 (854x480, 25FPS(for DV MTS) or 29.97FPS (for iPhone video), Progressive, PAL, VBR, 2 pass, 1.0/1.2Mbps, AAC, 160kbps, 48kHz stereo)
+
+General Thumbnail setting: 180x120 (match D90 3:2 ratio)
+
+Video Thumbnail: JPEG 180x80 embedded in the 180x120 frame
+Put all the video thumbs in one folder. In Photoshop select File->Automate->Batch, and select myself created Photoshop action “AddFrameToMovieThumb” to add a film frame and camera icon. Select “Save and Close” as destination, and “override Save As”.
