@@ -1,3 +1,3 @@
 # Misc
 
-Miscellaneous projects and utilities.
+Miscellaneous scripts, utilities, and projects.
